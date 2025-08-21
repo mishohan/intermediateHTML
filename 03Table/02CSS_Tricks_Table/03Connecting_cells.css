@@ -1,0 +1,19 @@
+table{
+    border-spacing: 0.5rem;
+}
+td{
+    padding: 0.5rem;
+}
+td:nth-child(1){
+    background-color: lightgreen;
+}td:nth-child(2){
+    background-color: hsla(270, 50%, 40%, 0.636);
+}td:nth-child(3){
+    background-color: hsla(0, 59%, 41%, 0.666)
+}td:nth-child(4){
+    background-color: antiquewhite;
+}td:nth-child(5){
+    background-color: hsla(190, 100%, 50%, 0.697);
+}td:nth-child(6){
+    background-color: rgba(65, 105, 225, 0.596);
+}

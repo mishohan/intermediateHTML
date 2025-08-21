@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative & Absolute Units</title>
+    <link rel="stylesheet" href="01styles.css">
+</head>
+<body>
+
+    <!--Ex-1: RELATIVE LENGTH UNITS-->
+    <div class="wrapper">
+        <div class="box px">I am 200px wide</div> <!--Absolute length-->
+        <div class="box vw">I am 10vw wide</div> <!--Relative to Viewport Width-->
+        <div class="box em">I am 10em wide</div> <!--Relative to font size-->
+    </div>
+
+    <!--Ex-2: EMS AND REMS-->
+
+    <div class="second">
+        
+    <ul class="ems"> <!--my parent element's font-size-->
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+            <ul>
+                <li>Three A</li>
+                <li>Three B
+                    <ul>
+                        <li>Three B 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <ul class="rems"> <!--The root element's font-size-->
+        <li>One</li>
+        <li>Two</li>
+        <li>Three
+            <ul>
+                <li>Three A</li>
+                <li>
+                    Three B
+                    <ul>
+                        <li>Three B 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+
+    
+
+</body>
+</html>
