@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Elements</title>
+</head>
+<body>
+    <!-- 01. Select Dropdown -->
+    <select name="Car" id="">
+        <option value="mercedes">Mercedes</option>
+        <option value="tesla">Tesla</option>
+        <option value="volvo" selected>Volvo</option>
+        <option value="bmw">BMW</option>
+        <option value="mini">Mini</option>
+        <option value="ford">Ford</option>
+    </select>
+
+    <select name="fashion" id="">
+        <optgroup label="Clothing">
+            <option value="t_shirt">T-Shirts</option>
+            <option value="sweater">Sweaters</option>
+            <option value="coats">Coats</option>
+        </optgroup>
+        <optgroup label="Foot Wear">
+            <option value="sneakers">Sneakers</option>
+            <option value="boots" selected>Boots</option>
+            <option value="sandals">Sandals</option>
+        </optgroup>
+    </select>
+
+    <!-- 02. Radio Buttons -->
+     <h1>Ticket Type</h1>
+     <div>
+        <input type="radio" id="child" name="ticket_type" value="child">
+        <label for="child">Child</label>
+     </div>
+     <div>
+        <input type="radio" id="adult" name="ticket_type" value="adult" checked>
+        <label for="adult">Adult</label>
+     </div>
+     <div>
+        <input type="radio" id="senior" name="ticket_type" value="senior">
+        <label for="senior">Senior</label>
+     </div>
+
+     <!-- Checkboxes -->
+      <h1>Pizza Toppings</h1>
+
+      <div>
+        <input type="checkbox" id="sausage" name="topping" value="sausage">
+        <label for="sausage">Sausage</label>
+      </div>
+      <div>
+        <input type="checkbox" id="onions" name="topping" value="onions">
+        <label for="onions">Onions</label>
+      </div>
+      <div>
+        <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+        <label for="pepperoni">Pepperoni</label>
+      </div>
+      <div>
+        <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+        <label for="mushrooms">Mushrooms</label>
+      </div>
+
+      <!-- We can also use checkbox to select only one items -->
+       <h1>Checkbox to select a single Element.</h1>
+       <div>
+        <input type="checkbox" id="newsletter" name="news_letter" value="newsletter" checked>
+        <label for="newsletter">Send me the news letter.</label>
+       </div>
+</body>
+</html>
