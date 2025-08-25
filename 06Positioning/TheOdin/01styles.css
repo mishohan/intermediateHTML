@@ -1,0 +1,29 @@
+.card-container{
+    position: relative;
+    margin: auto;
+    width: 60%;
+    
+}
+.card-image1{
+    width: 49.5%;
+    z-index: -1;
+}
+.card-image2{
+    width: 49.5%;
+    z-index: -1;
+}
+
+.card-body{
+    position: absolute;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 15rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: roboto;
+}
+.card-heading{
+    position: absolute;
+}

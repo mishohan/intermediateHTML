@@ -1,0 +1,22 @@
+.parent{
+    position: relative;
+    height: 200vh;
+}
+.child-one{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.child-two{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+
+}
+.child-three{
+    position: fixed;
+}
+.child-four{
+    position: sticky;
+    top: 0px;
+}
