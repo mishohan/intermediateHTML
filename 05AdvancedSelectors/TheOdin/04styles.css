@@ -1,0 +1,20 @@
+a[href]{
+    color: red;
+    font-weight: bold;
+}
+
+a[target="_blank"]{ /*Exact-value Selector*/
+    color: blue;
+}
+
+a[href^="https"]{  /*Start-with Selector*/
+    font-size: 150%;
+}
+
+a[href$="org"]{   /*Ends-with Selector*/
+    text-transform: uppercase;
+}
+
+a[href*="oo"]{ /*Contains Selector*/
+    float: right;
+}

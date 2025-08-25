@@ -1,0 +1,10 @@
+.box{
+    height: 200px;
+    width: 400px;
+    border: 5px solid rebeccapurple;
+    border-radius: 0.5em;
+    margin: 20px auto;
+    background-image: url("https://mdn.github.io/shared-assets/images/examples/big-star.png");
+    background-repeat: no-repeat;
+    background-position: right 60px;
+}

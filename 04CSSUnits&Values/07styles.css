@@ -1,0 +1,23 @@
+.box{
+    width: 400px;
+    background-color: lightblue;
+    padding: 1em;
+    border: 5px solid rebeccapurple;
+    border-radius: 0.5em;
+}
+
+.box::after{
+    content: "This is a string. I know because it is quoted in the CSS.";
+}
+
+.wrapper{
+    width: 400px;
+}
+
+.box1{
+    padding: 1em;
+    border: 5px solid rebeccapurple;
+    border-radius: 0.5em;
+    background-color: lightblue;
+    width: calc(20% + 100px);
+}
