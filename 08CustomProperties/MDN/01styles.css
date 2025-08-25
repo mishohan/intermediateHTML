@@ -1,0 +1,44 @@
+div{
+    color: black;
+    font-family: sans-serif;
+    width: 75%;
+    height: 80%;
+    margin: 4px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+p{
+    margin: 0;
+}
+
+.one{
+    height: 350px;
+    padding: 10px;
+}
+.two{
+    color: white;
+    height: 80%;
+    padding: 10px;
+}
+.three{
+    color: black;
+    height: 35%;
+    padding: 10px;
+}
+.four{
+    color: white;
+    height: 35%;
+    padding: 10px;
+}
+
+div{
+    background-color: var(--box-color);
+}
+
+.two{
+    --box-color: teal;
+}
+.three{
+    --box-color: pink;
+}

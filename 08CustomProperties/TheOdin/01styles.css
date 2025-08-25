@@ -1,0 +1,33 @@
+/* Using Custom Properties */
+
+.error-modal{
+    --color-error-text: red;
+    --modal-border: 1px solid black;
+    --modal-font-size: calc(2rem + 5vw);
+
+    color: var(--color-error-text);
+    border: var(--modal-border);
+    font-size: var(--modal-font-size);
+}
+
+/* Fallback Values */
+
+.fallback{
+    --color-text: white;
+
+    background-color: var(--undeclared-property, black);
+    color: var(--undeclared-again, var(--color-text, yellow));
+}
+
+/* Scope */
+
+.cool-div{
+    --main-bg: red;
+}
+.cool-paragraph{
+    background-color: var(--main-bg);
+}
+
+.boring-paragraph{
+    background-color: var(--main-bg);
+}
